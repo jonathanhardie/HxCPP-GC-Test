@@ -1,0 +1,3 @@
+-main TestGC
+-cpp cpp-gctest
+-cp ./
