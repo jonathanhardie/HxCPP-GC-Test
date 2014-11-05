@@ -7,7 +7,7 @@ Steps to reproduce:
 `haxe compile-gc-test.hxml`<br>
 
 2. Compile test.ndll and move to location of haxe exe.<br>
-`g++ gctest.cpp -shared -o ./test.ndll -I${HXCPP}`<br>
+`g++ gctest.cpp -shared -o ./test.ndll -I${HXCPP_INCLUDE_PATH}`<br>
 
 3. Run exe.
 
