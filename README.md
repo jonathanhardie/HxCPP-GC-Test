@@ -6,8 +6,8 @@ Steps to reproduce:
 1. Build exe<br>
 `haxe compile-gc-test.hxml`<br>
 
-2. Compile test.ndll and move to location of haxe exe.<br>
-`g++ gctest.cpp -shared -o ./test.ndll -I${HXCPP_INCLUDE_PATH}`<br>
+2. Compile test.ndll<br>
+`g++ gctest.cpp -shared -o ./cpp-gctest/test.ndll -I${HXCPP_INCLUDE_PATH}`<br>
 
 3. Run exe.
 
